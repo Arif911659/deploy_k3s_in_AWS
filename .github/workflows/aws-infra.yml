@@ -33,4 +33,4 @@ jobs:
       - name: Pulumi Stack Select
         run: pulumi stack select arifhossaincse22/deploy_k3s_in_AWS/dev
       - name: Pulumi Up
-        run: pulumi up -yes
+        run: pulumi up --yes
